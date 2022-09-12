@@ -7,9 +7,6 @@ Basic Laravel CRUD API application included with Authentication Module & Product
 1. PHP-8
 1. Laravel-9
 
-### Older Versions (if Needed):
-1. Laravel 8.x - https://github.com/ManiruzzamanAkash/Laravel-Advanced-CRUD-API/releases/tag/vLaravel8.x
-
 ### Architecture Used:
 1. Laravel 9.x
 1. Interface-Repository Pattern
@@ -34,11 +31,19 @@ Basic Laravel CRUD API application included with Authentication Module & Product
 1. [x] View Product
 1. [x] Delete Product
 
+##### Category Module
+1. [x] Product List
+1. [x] Product List [Public]
+1. [x] Create Product
+1. [x] Edit Product
+1. [x] View Product
+1. [x] Delete Product
+
 ### How to Run:
 1. Clone Project - 
 
 ```bash
-git clone https://github.com/ManiruzzamanAkash/Laravel-Basic-CRUD-API.git
+git clone https://github.com/MISTER-IZZATBEK/Laravel-Advanced-CRUD-API.git
 ```
 1. Go to the project drectory by `cd Laravel-Basic-CRUD-API` & Run the
 2. Create `.env` file & Copy `.env.example` file to `.env` file
