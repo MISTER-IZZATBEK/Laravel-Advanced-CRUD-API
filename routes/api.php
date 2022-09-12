@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Auth\AuthController;
+use App\Http\Controllers\Category\CategoriesController;
 use App\Http\Controllers\Products\ProductsController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -37,6 +38,13 @@ Route::group([
     Route::resource('products', ProductsController::class);
     Route::get('products/view/all', [ProductsController::class, 'indexAll']);
     Route::get('products/view/search', [ProductsController::class, 'search']);
+
+     /**
+     * Category Module
+     */
+    Route::resource('categories', CategoriesController::class);
+    Route::get('categories/view/all', [CategoriesController::class, 'indexAll']);
+    Route::get('categories/view/search', [CategoriesController::class, 'search']);
 
 });
 
